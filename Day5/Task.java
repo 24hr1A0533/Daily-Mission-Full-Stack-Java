@@ -8,7 +8,7 @@ public class Task {
             case 'B' -> { yield "80 to 90";}
             case 'c' -> { yield "70 to 80";}
             case 'D' -> { yield "60 to 70";}
-            default -> {yield "enetr a vaid grade";}
+            default -> {yield "enter a vaid grade";}
         };
         System.out.println("garde:"+result);
     }
