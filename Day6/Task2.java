@@ -6,8 +6,9 @@ public class Task2{
         System.out.println("Enter the Number to Print Sum of that number:");
         int n=data.nextInt();
         int sum=0;
-        while(n<=0){
+        while(n>=0){
             sum +=n;
+            n--;
         }
         System.out.println("Sum of N is :"+sum);
     }
